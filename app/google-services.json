@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441649151324",
+    "firebase_url": "https://gopicnic-5d791.firebaseio.com",
+    "project_id": "gopicnic-5d791",
+    "storage_bucket": "gopicnic-5d791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441649151324:android:ff48edab7add4ed3edd599",
+        "android_client_info": {
+          "package_name": "com.gopicinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441649151324-tindrkam8r4u9a4nq8srf2a4uopej8bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN-m1kxgaB-89CNRPq785J2I_7kt4wnTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441649151324-tindrkam8r4u9a4nq8srf2a4uopej8bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
