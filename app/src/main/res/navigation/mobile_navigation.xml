@@ -9,13 +9,13 @@
         android:id="@+id/nav_campings"
         android:name="com.gopicinic.fragments.CampingsFragment"
         android:label="Campings"
-        tools:layout="@layout/fragment_campings" />
+        tools:layout="@layout/fragment_picnic" />
 
     <fragment
         android:id="@+id/nav_gatherings"
         android:name="com.gopicinic.fragments.GatheringsFragment"
         android:label="Gatherings"
-        tools:layout="@layout/fragment_gatherings" />
+        tools:layout="@layout/fragment_picnic" />
     <fragment
         android:id="@+id/nav_picnic"
         android:name="com.gopicinic.fragments.PicnicFragment"
