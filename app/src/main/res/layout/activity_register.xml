@@ -30,7 +30,6 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="srinath"
         android:id="@+id/editName"
         android:gravity="center"/>
 
@@ -40,8 +39,7 @@
         android:inputType="textEmailAddress"
         android:hint="Enter Email"
         android:textColor="#000"
-        android:ems="10"        android:text="srinath123@gmail.com"
-
+        android:ems="10"
         android:layout_below="@+id/editName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -55,7 +53,6 @@
         android:hint="Enter Password"
         android:textColor="#000"
         android:ems="10"
-        android:text="123456"
         android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"

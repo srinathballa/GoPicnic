@@ -32,7 +32,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:id="@+id/editEmail"
-        android:text="srinath123@gmail.com"
         android:gravity="center"/>
 
     <EditText
@@ -42,7 +41,6 @@
         android:hint="Enter Password"
         android:textColor="#000"
         android:ems="10"
-        android:text="123456"
         android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
