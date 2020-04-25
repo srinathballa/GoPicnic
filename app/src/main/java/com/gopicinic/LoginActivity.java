@@ -3,8 +3,10 @@ package com.gopicinic;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -99,8 +101,17 @@ public class LoginActivity extends AppCompatActivity {
 
                 } else {
                     dialog.dismiss();
-                    Toast.makeText(LoginActivity.this, "Login successfull", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Login successfull ", Toast.LENGTH_SHORT).show();
 
+                    Log.d("LoginActivity","Email "+mAuth.getCurrentUser().getEmail());
+
+                    if (mAuth.getCurrentUser().getEmail()!=null) {
+                        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
+                        SharedPreferences.Editor editor = pref.edit();
+                        editor.putString("key_email", mAuth.getCurrentUser().getEmail()); // Storing string
+                        editor.commit(); // commit changes
+
+                    }
                     Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                     startActivity(intent);
                     finish();
